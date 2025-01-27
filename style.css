@@ -1,0 +1,397 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.carousel-indicators [data-bs-target] {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #000;
+        }
+        .carousel-item img {
+            border-radius: 0px;
+            object-fit: cover;
+            transition: transform 0.6s ease-in-out;
+        }
+        .carousel-item-next.carousel-item-left,
+        .carousel-item-prev.carousel-item-right {
+            transform: rotateY(180deg);
+        }
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 10px;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            background: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7, hotpink);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .collapse{
+            text-align: center;
+            align-items: center;
+        }
+        .skin-tone {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-block;
+            margin: 5px;
+        }
+        .dress-image {
+            width: 100px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #camera {
+            display: none;
+            float: left;
+        }
+
+        #selectedPhoto{
+            float: left;
+        }
+        .animated-gradient {
+            background-size: 200% 200%;
+            animation: gradientAnimation 5s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .photo{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/fair2.jpg);
+            background-size: cover;
+        }
+        .photo1{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/fair1.jpg);
+             background-size: cover;
+        }
+        .photo2{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/fair4.jpg);
+            background-size: cover;
+        }
+        .photo3{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/lightblue.jpg);
+            background-size: cover;
+        }
+        .photo4{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/light1.jpg);
+            background-size: cover;
+        }
+        .photo5{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/light2.jpg);
+            background-size: cover;
+        }
+        .photo6{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/light3.jpg);
+            background-size: cover;
+        }
+        .photo7{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/light4.jpg);
+            background-size: cover;
+        }
+        .photo8{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/gold1.jpg);
+            background-size: cover;
+        }
+        .photo9{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/gold2.jpg);
+            background-size: cover;
+        }
+        .photo10{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/gold3.jpg);
+            background-size: cover;
+        }
+        .photo11{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/gold4.jpg);
+            background-size: cover;
+        }
+        .photo12{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/olive1.jpg);
+            background-size: cover;
+        }
+        .photo13{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/olive2.jpg);
+            background-size: cover;
+        }
+        .photo14{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/olive3.jpg);
+            background-size: cover;
+        }
+        .photo15{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/olive4.jpg);
+            background-size: cover;
+        }
+        .photo16{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/skin1.jpg);
+            background-size: cover;
+        }
+        .photo17{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/skin2.jpg);
+            background-size: cover;
+        }
+        .photo18{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/skin3.jpg);
+            background-size: cover;
+        }
+        .photo19{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/skin4.jpg);
+            background-size: cover;
+        }
+        .photo20{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/dark4.jpg);
+            background-size: cover;
+        }
+        .photo21{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/dark1.jpg);
+            background-size: cover;
+        }
+        .photo22{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/dark3.jpg);
+            background-size: cover;
+        }
+        .photo23{
+            background-color: darkred;
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-image: url(photo/dark2.jpg);
+            background-size: cover;
+        }
+        .footer {
+            background: linear-gradient(45deg, #ff6b6b, #f06595, #cc5de8, blue);
+            background-size: 300% 300%;
+            color: white;
+            padding: 20px 0;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .carousel-item {
+            text-align: center;
+        }
+        .customer-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+         }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color:#000;
+            border-radius: 50px;
+        }
+        .carousel-indicators [data-bs-target] {
+            background-color: #000;
+        }
+        .gradient-bg {
+            background: linear-gradient(90deg, #ff6b6b, #f06595, #cc5de8);
+            background-size: 300% 300%;
+            color: white;
+            padding: 20px 0;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .star-rating {
+            color: gold;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+        }
+        .card img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            border-radius: 10px;
+        }
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .gradient-bg {
+            background: linear-gradient(270deg, #ff7e5f, #feb47b, #86a8e7, #91eae4, #ff7e5f);
+            background-size: 800% 800%;
+            animation: gradient 10s ease infinite;
+        }
+         .skin-tone {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-block;
+            margin: 5px;
+        }
+        .dress-image {
+            width: 100px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #camera {
+            display: none;
+        }
+        #selectedPhoto{
+            width: 500px;
+        }
+        .about{
+            font-size: 52px;
+            color: #FFF;
+            font-weight: 700;
+        }
+        .about1{
+            font-size: 21px;
+            color: #FFF;
+            text-align: justify;
+        }
+         @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .gradient-bg {
+            background: linear-gradient(270deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
